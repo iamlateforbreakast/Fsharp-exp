@@ -7,22 +7,30 @@ The baseline for the SFR mission consists of one OBC based on SPARC Leon2FT arch
 [fig]
 
 Architectural Considerations
-===≠========================
+============================
 When considering a system software, the following component are identified:
+
 o GNC
+
 o Data handling
+
 o FDIR & Operations
+
 o Infrastructure
 
 TODO: explain GNC
 TODO: explain data handling scope
 TODO: FDIR operations
 TODO: Infrastructure
-
+ 
 In order to provide a unified synthetic view across all components, coefficients are allocated to each component to reflect the impact on the complexity therfore cost of software development.
+
 o GNC (25%)
+
 o Data Handling (25%)
+
 o FDIR & Operations (25%)
+
 o Infrastructure (25%)
 
 Architecture A
