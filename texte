@@ -20,17 +20,21 @@ o Infrastructure (25%)
 
 Architecture A
 ==============
+For this architecture, a central OBC is considered using a quad core 32bit ARM at 667MHz. FPGA based acceleration is not considered in this exercise. All software elements operate on this OBC.
+
 o GNC Architecture
 o Data Handling Architecture
 o FDIR Architecture
 Architecture A requires the acquisition of an external supervisor license.
 
+TODO: Impact on software development.
+
 Architecture B
 ==============
+This architecture uses 2 on board computers interconnected. A platform OBC and a Data Processing Unit connected throught a Canbus or Spacewire bus.
+
 o GNC Architecture
 Currently, the GNC uses 2 closed loops. One closed loop is between path control and locomotion management to assess the effects of wheel actuation. The other closed loop is between the path control and the visual odometry. In the architecture, the locomotion is controlled by the platform computer and the visual odometry by the DPU. [Fig]
-
-o Software Architecture
 
 o Data Architecture
 The mechanisms to exchange data between the platform OBC and DPU needs to be established. For example,
