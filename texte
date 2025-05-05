@@ -1,20 +1,25 @@
 Scope
-This document reviews 2 different DAta Handling architectures and attempts to estimate the development cost of a lunar rover system from a systeme software perspective as a parametric coefficient applied to the SFR original cost (150000h).
+This document reviews 2 different Data Handling architectures and attempts to estimate the development cost of a lunar rover system from a systeme software perspective as a parametric coefficient applied to the SFR original software development cost (150000h). An attempt at parametric FA cost is also provided.
 
 Architecture A
-============
-o GNC architecture
+==============
+o GNC Architecture
 o Software Architecture
-o Data
+o Data Architecture
+o FDIR Architecture
 Architecture A requires the acquisitin of an external supervisor license.
+
 Architecture B
-===========
-o GNC
+==============
+o GNC Architecture
 Currently, the GNC uses 2 closed loops. One closed loop is between path control and locomotion management to assess the effects of wheel actuation. The other closed loop is between the path control and the visual odometry. In the architecture, the locomotion is controlled by the platform computer and the visual odometry by the DPU. [Fig]
-o Software
-o Data
+
+o Software Architecture
+
+o Data Architecture
 The mechanisms to exchange data between the platform OBC and DPU needs to be established. For example,
-o FDIR
+
+o FDIR Architecture
 A strong characteristic of this architecture, it the extreme simplification of the failure management at DPU level. A failure a GNC sensor would invalidate the whole chain. The DPU would mark the chain as failed. The platform OBC would then need to switch to the redundant sensor chain.
 
 Conclusion
