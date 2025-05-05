@@ -1,13 +1,27 @@
 Scope
+=====
 This document reviews 2 different Data Handling architectures and attempts to estimate the development cost of a lunar rover system from a systeme software perspective as a parametric coefficient applied to the SFR original software development cost (150000h). An attempt at parametric FA cost is also provided.
+
+Architectural Consideration
+===≠=======================
+When considering a system software, the following component are identified:
+o GNC
+o Data handling
+o FDIR & Operations
+o Infrastructure
+
+In order to provide a unified synthetic view across all components, coefficients are allocated to each component.
+o GNC (25%)
+o Data Handling (25%)
+o FDIR & Operations (25%)
+o Infrastructure (25%)
 
 Architecture A
 ==============
 o GNC Architecture
-o Software Architecture
-o Data Architecture
+o Data Handling Architecture
 o FDIR Architecture
-Architecture A requires the acquisitin of an external supervisor license.
+Architecture A requires the acquisition of an external supervisor license.
 
 Architecture B
 ==============
