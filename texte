@@ -2,6 +2,8 @@ Scope
 =====
 This document reviews 2 different Data Handling architectures and attempts to estimate the development cost of a lunar rover system from a systeme software perspective as a parametric coefficient applied to the SFR original software development cost (150000h). An attempt at parametric FA cost is also provided.
 
+TODO: Provide RFM architecture description.
+
 Architectural Consideration
 ===≠=======================
 When considering a system software, the following component are identified:
@@ -41,5 +43,6 @@ Conclusion
 Both architecture A and B, if selected require up front effort to confirm their cost impact. Architecture A requires preliminary assessment understand the impact of separating the execution of the GNC algorithms as well as structural impact on data management.
 Architecture B requires preliminary assessment to understand the feasibility to isolate the GNC execution.
 
+TODO: Propose RND plan.
 
 
