@@ -11,3 +11,6 @@ Your understanding is on the right track. I'd like to expand on a few points to 
 
 
 P.S. The HSS also supports the YMODEM protocol to transfer data via the MMUART0 port. However, this method is considerably slower compared to the USB interface.
+
+Creating a customize HSS bootloader
+https://github.com/polarfire-soc/hart-software-services/tree/master/tools/hss-payload-generator
