@@ -1,4 +1,3 @@
-
 Uploading baremetal payload
 https://forum.microchip.com/s/topic/a5CV40000001RNxMAM/t396475
 
@@ -14,3 +13,6 @@ P.S. The HSS also supports the YMODEM protocol to transfer data via the MMUART0 
 
 Creating a customize HSS bootloader
 https://github.com/polarfire-soc/hart-software-services/tree/master/tools/hss-payload-generator
+
+Load 2 RTOS ELF file in AMP configuration with HSS
+https://github.com/polarfire-soc/polarfire-soc-amp-examples/tree/main
