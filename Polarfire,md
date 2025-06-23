@@ -16,3 +16,5 @@ https://github.com/polarfire-soc/hart-software-services/tree/master/tools/hss-pa
 
 Load 2 RTOS ELF file in AMP configuration with HSS
 https://github.com/polarfire-soc/polarfire-soc-amp-examples/tree/main
+
+https://docs.rtems.org/docs/main/user/bsps/bsps-riscv.html
