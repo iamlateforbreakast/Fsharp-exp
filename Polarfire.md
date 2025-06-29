@@ -18,3 +18,14 @@ Load 2 RTOS ELF file in AMP configuration with HSS
 https://github.com/polarfire-soc/polarfire-soc-amp-examples/tree/main
 
 https://docs.rtems.org/docs/main/user/bsps/bsps-riscv.html
+
+## Install SoftConsole
+
+## Install Renode
+
+## Compile RTEMS for RISCV
+
+## Execute RTEMS example on Renode
+
+## Connect to Renode execution with GDB
+
