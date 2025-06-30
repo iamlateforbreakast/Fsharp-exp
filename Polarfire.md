@@ -27,5 +27,9 @@ https://docs.rtems.org/docs/main/user/bsps/bsps-riscv.html
 
 ## Execute RTEMS example on Renode
 
+arm-rtems4.9-objcopy -R -S -O binary hello.exe hello.bin
+
+When working with U-Boot, it is also necessary to create an image file for U-Boot using the mkimage command. This involves specifying the architecture, operating system, type of image, compression, load address, entry point, and the binary file to be used. An example command is mkimage -A arm -O rtems -T kernel -C none -a 0x30000100 -e 0x30000100 -n "RTEMS Application" -d hello.bin hello.img.
+
 ## Connect to Renode execution with GDB
 
