@@ -14,6 +14,10 @@
 ## Buid toolchain
 
     ../source-builder/sb-set-builder --prefix=~/Projects/rtems/6 6/rtems-arm
+or
+    ../source-builder/sb-set-builder --prefix=~/Projects/rtems/6 6/rtems-riscv
+or
+    ../source-builder/sb-set-builder --prefix=~/Projects/rtems/6 6/rtems-sparc
 
 ## Build kernel
 
@@ -32,7 +36,7 @@
     mkdir xilinx_zynq_a9_qemu
     cd xilinx_zynq_a9_qemu
 
-/home/eshan/development/rtems/kernel/rtems/configure --prefix=/home/eshan/development/rtems/5 --enable-maintainer-mode --target=arm-rtems5 --enable-rtemsbsp=xilinx_zynq_a9_qemu --enable-tests --enable-posix --disable-networking --enable-cxx
+~/Projects/rtems/kernel/rtems/configure --prefix=/home/eshan/development/rtems/5 --enable-maintainer-mode --target=arm-rtems6 --enable-rtemsbsp=xilinx_zynq_a9_qemu --enable-tests --enable-posix --disable-networking --enable-cxx
 
 $ make -j 2
 $ make install
