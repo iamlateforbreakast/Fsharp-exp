@@ -4,7 +4,7 @@
 
     mkdir ~/Projects/rtems
     cd ~/Projects/rtems
-    git clone git://git.rtems.org/rtems-source-builder.git rsb
+    git clone https://gitlab.rtems.org/rtems/tools/rtems-source-builder.git rsb
     cd rsb
     git checlout 6
     ./source-builder/sb-check
@@ -30,8 +30,8 @@ or
     mkdir kernel
     cd kernel
 
-    git clone git://git.rtems.org/rtems.git rtems
-
+    git clone https://gitlab.rtems.org/rtems/rtos/rtems.git
+    
     export PATH=$HOME/Proects/rtems/6/bin:$PATH 
     cd rtems
     ./waf configure --prefix=$HOME/rtems-start/rtems/6
