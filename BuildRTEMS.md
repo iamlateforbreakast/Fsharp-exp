@@ -34,7 +34,11 @@ or
 
     export PATH=$HOME/Proects/rtems/6/bin:$PATH 
     cd rtems
-    ./bootstrap -c && ./rtems-bootstrap
+    ./waf configure --prefix=$HOME/rtems-start/rtems/6
+    ./waf
+    ./waf install
+
+## Compile QEMU
 
     cd ..
     mkdir xilinx_zynq_a9_qemu
