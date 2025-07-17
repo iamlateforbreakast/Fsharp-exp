@@ -13,7 +13,7 @@
 
 ## Buid toolchain
 
-    ../source-builder/sb-set-builder --prefix=/home/eshan/development/rtems/6 6/rtems-arm
+    ../source-builder/sb-set-builder --prefix=~/Projects/rtems/6 6/rtems-arm
 
 ## Build kernel
 
