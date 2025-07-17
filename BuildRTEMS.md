@@ -14,9 +14,13 @@
 ## Buid toolchain
 
     ../source-builder/sb-set-builder --prefix=~/Projects/rtems/6 6/rtems-arm
+    
 or
+
     ../source-builder/sb-set-builder --prefix=~/Projects/rtems/6 6/rtems-riscv
+    
 or
+
     ../source-builder/sb-set-builder --prefix=~/Projects/rtems/6 6/rtems-sparc
 
 ## Build kernel
