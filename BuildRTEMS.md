@@ -32,7 +32,7 @@ or
 
     git clone git://git.rtems.org/rtems.git rtems
 
-    export PATH=$HOME/development/rtems/6/bin:$PATH 
+    export PATH=$HOME/Proects/rtems/6/bin:$PATH 
     cd rtems
     ./bootstrap -c && ./rtems-bootstrap
 
