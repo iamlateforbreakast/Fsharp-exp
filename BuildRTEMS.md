@@ -6,10 +6,12 @@
     cd ~/Projects/rtems
     git clone https://gitlab.rtems.org/rtems/tools/rtems-source-builder.git rsb
     cd rsb
-    git checlout 6
+    git branch -v -a to check all remotebranches
+    git checkout 6
+    cd source-builder
     ./source-builder/sb-check
     cd rtems
-    ../source-builder/sb-set-builder --list-bsets
+    ./source-builder/sb-set-builder --list-bsets
 
 ## Buid toolchain
 
