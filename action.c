@@ -1,9 +1,3 @@
-/* CanOpenAction.c - CanOpenAction body */
-
-/* Copyright (c) 2014 - 2018 AIRBUS Defence & Space Ltd */
- 
-/* Project : Exomars Rover Vehicle */
-
 /***********************************************************************/
 /**
  * @file
