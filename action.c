@@ -32,7 +32,7 @@
  * The messages received when the master is in INIT state are all discarded.
  * 
  * When the master is in PRE-POP, OP or STOP modes, the CANOpen protocols are
- * supported according to the CAN Open Standard and ROVER's tailoring, i.e
+ * supported according to the CAN Open Standard and robot's tailoring, i.e
  * both received and transmitted CAN messages are handled following the involved
  * protocols.
  * 
